@@ -58,6 +58,11 @@ on early-init
     write /dev/cpuctl/top-app/cpu.uclamp.latency_sensitive 1
     # Enable suspend to RAM
     write /sys/power/mem_sleep "deep"
+    # Import userdata tuning from oriole
+    write /dev/sys/fs/by-name/userdata/data_io_flag 56
+    write /dev/sys/fs/by-name/userdata/node_io_flag 56
+    write /dev/sys/fs/by-name/userdata/data_io_flag 8
+    write /dev/sys/fs/by-name/userdata/node_io_flag 8
     # configure governor settings for silver cluster
     write /sys/devices/system/cpu/cpufreq/policy0/walt/up_rate_limit_us 500
     write /sys/devices/system/cpu/cpufreq/policy0/walt/down_rate_limit_us 20000
