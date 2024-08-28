@@ -376,3 +376,7 @@ ro.config.hw_power_saving=1
 ro.ril.power_collapse=1
 ro.ril.disable.power.collapse=0
 pm.sleep_mode=1
+
+# Reduce boot time
+ro.config.hw_quickpoweron=true
+ro.config.hw_quickpoweron_init=true
