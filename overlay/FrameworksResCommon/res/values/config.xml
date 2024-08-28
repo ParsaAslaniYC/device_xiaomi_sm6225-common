@@ -225,17 +225,17 @@
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
-        <item>1</item>
-        <item>20</item>
-        <item>21</item>
+        <item>19</item>
+        <item>34</item>
+        <item>41</item>
     </integer-array>
 
     <!-- Vibrator pattern for feedback about touching a virtual key -->
     <integer-array name="config_virtualKeyVibePattern">
         <item>0</item>
-        <item>10</item>
-        <item>20</item>
-        <item>30</item>
+        <item>22</item>
+        <item>37</item>
+        <item>42</item>
     </integer-array>
 
     <!-- Vibrator pattern for feedback when selecting an hour/minute tick of a Clock -->
