@@ -863,6 +863,13 @@ service surfaceflinger /system/bin/surfaceflinger
     capabilities SYS_NICE
     writepid /dev/cpuset/system-background/tasks
 
+# Set zramswap for performance
+service zramswap /system/bin/swapon /dev/block/zram0
+    class main
+    user root
+    group root
+    oneshot
+
 on boot
     # Disable kernel logging for better performance
     write /proc/sys/kernel/printk "0 0 0 0"
