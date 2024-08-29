@@ -862,3 +862,7 @@ service surfaceflinger /system/bin/surfaceflinger
     group graphics drmrpc
     capabilities SYS_NICE
     writepid /dev/cpuset/system-background/tasks
+
+on boot
+    # Disable kernel logging for better performance
+    write /proc/sys/kernel/printk "0 0 0 0"
