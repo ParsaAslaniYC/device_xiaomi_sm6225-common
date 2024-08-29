@@ -130,3 +130,16 @@ persist.log.tag.android.vending=E
 # LMKD
 ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=15
+
+# Enable Just-In-Time (JIT) compilation
+dalvik.vm.usejit=true
+
+# Enable dalvik VM's experimental features
+dalvik.vm.dexopt-flags=m=y
+
+# Enable Background Compilation
+dalvik.vm.bg-dexopt=true
+
+# Minimize GC pauses
+dalvik.vm.dex2oat-Xms64m
+dalvik.vm.dex2oat-Xmx512m
