@@ -41,4 +41,4 @@
 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/mi_display/disp-DSI-0/dynamic_fps                                        u:object_r:vendor_sysfs_graphics:s0
 
 # HALS
-/vendor/bin/hw/vendor\.lineage\.livedisplay@2\.0-service\.topaz    u:object_r:hal_lineage_livedisplay_qti_exec:s0
+/vendor/bin/hw/vendor\.lineage\.livedisplay@2\.0-service\.xiaomi_sm6225   u:object_r:hal_lineage_livedisplay_qti_exec:s0
