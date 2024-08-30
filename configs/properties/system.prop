@@ -129,7 +129,15 @@ persist.log.tag.android.vending=E
 
 # LMKD
 ro.lmk.kill_heaviest_task=true
-ro.lmk.kill_timeout_ms=15
+ro.lmk.kill_timeout_ms=100
+ro.lmk.stall_limit_critical=40 
+ro.lmk.thrashing_limit=30 
+ro.lmk.thrashing_limit_decay=50
+ro.lmk.upgrade_pressure=40 
+ro.lmk.use_minfree_levels=true
+ro.lmk.critical_upgrade=true 
+ro.lmk.downgrade_pressure=60 
+ro.lmk.filecache_min_kb=153600   
 
 # Enable Just-In-Time (JIT) compilation
 dalvik.vm.usejit=true
