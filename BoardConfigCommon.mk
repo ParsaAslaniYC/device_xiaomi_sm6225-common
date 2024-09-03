@@ -209,6 +209,7 @@ SOONG_CONFIG_xiaomiSm6225Vars_livedisplay_support_sunlight_enhancement ?= true
 # Camera
 MALLOC_SVELTE := true
 MALLOC_SVELTE_FOR_LIBC32 := true
+TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
 
 # SurfaceFlinger
 TARGET_USE_AOSP_SURFACEFLINGER := true
