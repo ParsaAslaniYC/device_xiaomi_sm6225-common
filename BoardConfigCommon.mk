@@ -206,6 +206,10 @@ SOONG_CONFIG_xiaomiSm6225Vars += \
 SOONG_CONFIG_xiaomiSm6225Vars_livedisplay_support_anti_flicker ?= true
 SOONG_CONFIG_xiaomiSm6225Vars_livedisplay_support_sunlight_enhancement ?= true
 
+# Camera
+MALLOC_SVELTE := true
+MALLOC_SVELTE_FOR_LIBC32 := true
+
 # SurfaceFlinger
 TARGET_USE_AOSP_SURFACEFLINGER := true
 
