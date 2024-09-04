@@ -1,3 +1,8 @@
+# DroidX-UI props
+ro.droidx.maintainer=itzParsaYC
+ro.droidx.chipset=Snapdragon 685 
+ro.droidx.display_resolution=6.67" AMOLED 1080x2400
+
 # Brightness Curve
 persist.sys.brightness.low.gamma=true
 
